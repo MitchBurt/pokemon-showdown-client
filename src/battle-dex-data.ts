@@ -443,8 +443,6 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	eternatuseternamax: 1116 + 76,
 	venusaurgmax: 1116 + 77,
 	blastoisegmax: 1116 + 78,
-	rillaboomgmax: 1116 + 79,
-	inteleongmax: 1116 + 81,
 	urshifugmax: 1116 + 82,
 	urshifurapidstrikegmax: 1116 + 83,
 
