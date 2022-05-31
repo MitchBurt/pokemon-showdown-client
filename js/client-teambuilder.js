@@ -2011,7 +2011,6 @@
 				smogdexid = 'meowstic-m';
 			} else if (species.forme) {
 				switch (species.baseSpecies) {
-				case 'Alcremie':
 				case 'Basculin':
 				case 'Burmy':
 				case 'Castform':

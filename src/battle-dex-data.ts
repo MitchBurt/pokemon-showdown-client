@@ -138,7 +138,7 @@ const BattleStatNames = {
 } as const;
 
 const BattleBaseSpeciesChart = [
-	"unown", "burmy", "shellos", "gastrodon", "deerling", "sawsbuck", "vivillon", "flabebe", "floette", "florges", "furfrou", "minior", "alcremie", "pokestarufo", "pokestarbrycenman", "pokestarmt", "pokestarmt2", "pokestartransport", "pokestargiant", "pokestarhumanoid", "pokestarmonster", "pokestarf00", "pokestarf002", "pokestarspirit", "pokestarblackdoor", "pokestarwhitedoor", "pokestarblackbelt",
+	"unown", "burmy", "shellos", "gastrodon", "deerling", "sawsbuck", "vivillon", "flabebe", "floette", "florges", "furfrou", "minior", "pokestarufo", "pokestarbrycenman", "pokestarmt", "pokestarmt2", "pokestartransport", "pokestargiant", "pokestarhumanoid", "pokestarmonster", "pokestarf00", "pokestarf002", "pokestarspirit", "pokestarblackdoor", "pokestarwhitedoor", "pokestarblackbelt",
 ] as ID[];
 
 const BattlePokemonIconIndexes: {[id: string]: number} = {
@@ -323,14 +323,7 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	stunfiskgalar: 900 + 179,
 	sinisteaantique: 854,
 	polteageistantique: 855,
-	alcremierubycream: 900 + 183,
-	alcremiematchacream: 900 + 184,
-	alcremiemintcream: 900 + 185,
-	alcremielemoncream: 900 + 186,
-	alcremiesaltedcream: 900 + 187,
-	alcremierubyswirl: 900 + 188,
-	alcremiecaramelswirl: 900 + 189,
-	alcremierainbowswirl: 900 + 190,
+
 	eiscuenoice: 900 + 191,
 	indeedeef: 900 + 192,
 	morpekohangry: 900 + 193,
