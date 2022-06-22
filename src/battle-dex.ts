@@ -178,9 +178,9 @@ const Dex = new class implements ModdedDex {
 	readonly statNamesExceptHP: ReadonlyArray<StatNameExceptHP> = ['atk', 'def', 'spa', 'spd', 'spe'];
 
 	pokeballs: string[] | null = null;
-
+//change sprite location
 	resourcePrefix = (() => {
-        return `https://51.79.55.34:8080/`;
+        return `51.79.55.34:8081/`;
     })();
 
 
