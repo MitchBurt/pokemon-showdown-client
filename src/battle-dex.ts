@@ -180,7 +180,7 @@ const Dex = new class implements ModdedDex {
 	pokeballs: string[] | null = null;
 //change sprite location
 	resourcePrefix = (() => {
-        return `./`;
+        return `http://51.79.55.34:8081/`;
     })();
 
 
