@@ -185,9 +185,8 @@ const Dex = new class implements ModdedDex {
 
 
 	fxPrefix = (() => {
-		const protocol = (window.document?.location?.protocol !== 'http:') ? 'https:' : '';
-		return `${protocol}//${window.Config ? Config.routes.client : '51.79.55.34:8081'}/fx/`;
-	})(); 
+        return `51.79.55.34:8081/`;
+    })();
 
 	loadedSpriteData = {xy: 1, bw: 0};
 	moddedDexes: {[mod: string]: ModdedDex} = {};
