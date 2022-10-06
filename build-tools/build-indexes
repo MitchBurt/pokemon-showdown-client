@@ -99,17 +99,12 @@ function requireNoCache(pathSpec) {
 		}
 		let oldI = i;
 		if (name === 'Alakazam') i = 5;
-		if (name === 'Arctovish') i = 5;
-		if (name === 'Arctozolt') i = 5;
 		if (name === 'Articuno') i = 5;
 		if (name === 'Breloom') i = 3;
 		if (name === 'Bronzong') i = 4;
 		if (name === 'Celebi') i = 4;
 		if (name === 'Charizard') i = 5;
 		if (name === 'Donphan') i = 3;
-		if (name === 'Dracovish') i = 5;
-		if (name === 'Dracozolt') i = 5;
-		if (name === 'Dragapult') i = 5;
 		if (name === 'Dusclops') i = 3;
 		if (name === 'Electabuzz') i = 6;
 		if (name === 'Exeggutor') i = 2;

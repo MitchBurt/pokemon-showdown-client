@@ -324,11 +324,7 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	sinisteaantique: 854,
 	polteageistantique: 855,
 
-	eiscuenoice: 900 + 191,
-	indeedeef: 900 + 192,
 	morpekohangry: 900 + 193,
-	zaciancrowned: 900 + 194,
-	zamazentacrowned: 900 + 195,
 	slowpokegalar: 900 + 196,
 	slowbrogalar: 900 + 197,
 	zarudedada: 900 + 198,
