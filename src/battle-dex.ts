@@ -183,7 +183,7 @@ const Dex = new class implements ModdedDex {
         return `http://51.79.55.34:8080/`;
     })();
 	fxPrefix = (() => {
-        return `play.pokemonshowdown.com/fx/`;
+        return `http://play.pokemonshowdown.com/fx/`;
     })();
 
 	//fxPrefix = (() => {
