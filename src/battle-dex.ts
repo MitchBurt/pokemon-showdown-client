@@ -182,12 +182,14 @@ const Dex = new class implements ModdedDex {
 	resourcePrefix = (() => {
         return `http://51.79.55.34:8080/`;
     })();
-
-
 	fxPrefix = (() => {
-		const protocol = (window.document?.location?.protocol !== 'http:') ? 'https:' : '';
-		return `${protocol}//${window.Config ? Config.routes.client : 'play.pokemonshowdown.com'}/fx/`;
+        return `play.pokemonshowdown.com/fx/`;
     })();
+
+	//fxPrefix = (() => {
+		//const protocol = (window.document?.location?.protocol !== 'http:') ? 'https:' : '';
+		//return `${protocol}//${window.Config ? Config.routes.client : 'play.pokemonshowdown.com'}/fx/`;
+   // })();
 
 	loadedSpriteData = {xy: 1, bw: 0};
 	moddedDexes: {[mod: string]: ModdedDex} = {};

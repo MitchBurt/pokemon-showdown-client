@@ -327,7 +327,6 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	morpekohangry: 900 + 193,
 	slowpokegalar: 900 + 196,
 	slowbrogalar: 900 + 197,
-	zarudedada: 900 + 198,
 	pikachuworld: 900 + 199,
 	articunogalar: 900 + 200,
 	zapdosgalar: 900 + 201,
