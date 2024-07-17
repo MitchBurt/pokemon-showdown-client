@@ -7,6 +7,10 @@ function appendSpeciesToTable(speciesName){
     if(species[speciesName]["ID"] >= 252){
         return false
     }
+	    if(species[speciesName]["Name"] == "Zygarde"){
+        return false
+    }
+	
     let moveMethod = null
 
     const tBody = speciesTableTbody
