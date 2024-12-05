@@ -7,7 +7,7 @@ function appendSpeciesToTable(speciesName){
     if(species[speciesName]["ID"] >= 420){
         return false
     }
-	    if(species[speciesName]["name"] == "Zygarde"){
+	if(species[speciesName]["name"] == "Zygarde"){
         return false
     }
 	
