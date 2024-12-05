@@ -4,7 +4,7 @@ function appendSpeciesToTable(speciesName){
     if(species[speciesName]["baseSpeed"] <= 0){
         return false
     }
-    if(species[speciesName]["ID"] >= 252){
+    if(species[speciesName]["ID"] >= 420){
         return false
     }
 	    if(species[speciesName]["name"] == "Zygarde"){
